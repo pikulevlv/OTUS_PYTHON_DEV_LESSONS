@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1> Hello snakes! </h1>
+    {% for snake in snakes %}
+        <li> {{ snake.name }}, poison:{{ snake.specia.is_poison }} , family:{{ snake.specia.name }}</li>
+    {% endfor %}
+
+<!--{% load static %}-->
+<!--<img src="{% static 'snakes/22.png' %}" alt="My image">-->
+
+</body>
+</html>

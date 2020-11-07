@@ -1,0 +1,4 @@
+https://django-debug-toolbar.readthedocs.io/en/latest/
+https://docs.djangoproject.com/en/3.1/howto/custom-management-commands/
+https://docs.djangoproject.com/en/3.1/ref/models/querysets/
+https://djbook.ru/examples/33/
