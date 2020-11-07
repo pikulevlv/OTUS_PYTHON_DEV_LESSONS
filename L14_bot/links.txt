@@ -1,0 +1,15 @@
+https://github.com/OtusTeam/BasePython/tree/PythonBasic.2020-07/lessons/lesson.14
+
+https://core.telegram.org/
+
+requests
+https://core.telegram.org/bots/api
+
+aiogram
+https://github.com/aiogram/aiogram
+
+ngrok помогает легко сделать внешний адрес для какого-то своего localhost
+https://ngrok.com/
+
+Отправить по ссылке сообщение в чат от бота
+https://api.telegram.org/bot1363614519:AAGgSo230tdOyNk2zOe96Ul8jGH9-a3VByw/sendMessage?chat_id=198066550&text=Hello!!!

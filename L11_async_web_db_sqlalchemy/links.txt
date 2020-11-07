@@ -1,0 +1,4 @@
+https://github.com/OtusTeam/BasePython/tree/PythonBasic.2020-07/lessons/lesson.11
+
+Установка пакетов с гита (когда библиотека не релизнута):
+pip install git+https://github.com/username/reponame

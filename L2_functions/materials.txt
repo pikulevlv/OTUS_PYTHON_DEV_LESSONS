@@ -1,0 +1,1 @@
+https://github.com/OtusTeam/BasePython/blob/PythonBasic.2020-07/lessons/lesson.2/main.py

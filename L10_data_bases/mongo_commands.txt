@@ -1,0 +1,9 @@
+# write
+db.users.insertOne({
+    'username':'john2',
+    'firstname': 'john',
+    'lastname': 'Smith',
+})
+
+#find
+db.getCollection('users').find({ 'lastname': {'$exists': true } })

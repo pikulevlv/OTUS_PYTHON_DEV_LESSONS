@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1> Hello snakes! </h1>
+    {% for snake in snakes %}
+        <li> {{ snake.name }}, poison:{{ snake.is_poison }} </li>
+    {% endfor %}
+</body>
+</html>

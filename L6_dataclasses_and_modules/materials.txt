@@ -1,0 +1,5 @@
+https://www.attrs.org/en/stable/why.html
+https://docs.python.org/3/library/dataclasses.html
+https://pydantic-docs.helpmanual.io/
+https://pythonworld.ru/tipy-dannyx-v-python/isklyucheniya-v-python-konstrukciya-try-except-dlya-obrabotki-isklyuchenij.html
+https://pythonworld.ru/osnovy/rabota-s-modulyami-sozdanie-podklyuchenie-instrukciyami-import-i-from.html

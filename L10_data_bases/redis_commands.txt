@@ -1,0 +1,77 @@
+admin1@admin1-X540LJ:~/redis-6.0.7/src$ ./redis-cli 
+127.0.0.1:6379> SET foo bar
+OK
+127.0.0.1:6379> SET spam eggs
+OK
+127.0.0.1:6379> GET foo
+"bar"
+127.0.0.1:6379> GET spam
+"eggs"
+127.0.0.1:6379> GET wfdsf
+(nil)
+127.0.0.1:6379> SET qwerty 123
+OK
+127.0.0.1:6379> GET qwerty
+"123"
+127.0.0.1:6379> DEL qwerty
+(integer) 1
+127.0.0.1:6379> GET qwerty
+(nil)
+127.0.0.1:6379> MSET A 1 B 2 C 3
+OK
+127.0.0.1:6379> GET A
+"1"
+127.0.0.1:6379> MGET A C
+1) "1"
+2) "3"
+127.0.0.1:6379> MGET foo spam
+1) "bar"
+2) "eggs"
+127.0.0.1:6379> SETEX qwerty abc 10
+(error) ERR value is not an integer or out of range
+127.0.0.1:6379> SETEX qwerty 10 abc
+OK
+127.0.0.1:6379> GET qwerty
+"abc"
+127.0.0.1:6379> GET qwerty
+"abc"
+127.0.0.1:6379> GET qwerty
+(nil)
+127.0.0.1:6379> HSET lessons first welcome
+(integer) 1
+127.0.0.1:6379> HSET lessons second intro
+(integer) 1
+127.0.0.1:6379> HSET lessons third databases
+(integer) 1
+127.0.0.1:6379> HGET lessons first
+"welcome"
+127.0.0.1:6379> HGET lessons third
+"databases"
+127.0.0.1:6379> HMSET lessons fourth flask fifth django
+OK
+127.0.0.1:6379> HGET lessons
+(error) ERR wrong number of arguments for 'hget' command
+127.0.0.1:6379> HGET lessons fifth
+"django"
+127.0.0.1:6379> HMGET lessons first third fifth
+1) "welcome"
+2) "databases"
+3) "django"
+127.0.0.1:6379> HGETALL lessons
+ 1) "first"
+ 2) "welcome"
+ 3) "second"
+ 4) "intro"
+ 5) "third"
+ 6) "databases"
+ 7) "fourth"
+ 8) "flask"
+ 9) "fifth"
+10) "django"
+127.0.0.1:6379> GET D
+(nil)
+127.0.0.1:6379> FLUSHDB
+OK
+127.0.0.1:6379> 
+
+

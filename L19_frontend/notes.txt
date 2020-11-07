@@ -1,0 +1,5 @@
+flask run # запустить приложение
+
+pip freeze # вывести все зависимости (если в venv, то для venv)
+
+pip install -r requirements.txt # установить в среде зависимости из файла requirements.txt

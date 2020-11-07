@@ -1,0 +1,10 @@
+python manage.py startapp snakes # создать приложение в проектеpip install django # установка
+django-admin --version # версия
+django-admin startproject serpentarium # стартовать проект
+
+python manage.py startapp snakes # создать приложение в проекте
+MVT = Model + View + Template
+python manage.py runserver # запустить сервер
+python manage.py makemigrations # создать рецепт изменений в БД
+python manage.py migrate # накатить изменения в БД
+python manage.py createsuperuser # создать админа

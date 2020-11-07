@@ -1,0 +1,23 @@
+Ограничить доступ к атрибуту класса: name mandling
+Например: 
+class Car(BaseVehicle):
+    SOUND = 'beep'
+    WHEELS = 4
+    # FUEL_CONSUMPTION = 100 #единиц на единицу расстояния
+
+    def __init__(self, fuel=5000, fuel_consumption=100):
+        self.__fuel = fuel
+        self._fuel_consumption = fuel_consumption
+
+    def go(self, distance):
+        fuel_to_spend = distance * self._fuel_consumption
+        if fuel_to_spend > self.__fuel:
+            print(f"Cannot go, not enough fuel {self.__fuel}, need {fuel_to_spend}")
+            return
+        self.__fuel -= fuel_to_spend # name mandling __smth
+        print(f"Going {distance}, spent {fuel_to_spend}, left {self.__fuel}")
+
+Здесь извне к __fuel обратиться не получится, выйдет ошибка.
+Можно так: 
+c = Car()
+c._Car__fuel += 1000
