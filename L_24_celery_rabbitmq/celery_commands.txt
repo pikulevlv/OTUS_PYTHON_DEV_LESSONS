@@ -1,0 +1,9 @@
+Установка
+sudo dpkg --configure -a
+sudo apt-get install rabbitmq-server
+pip install celery
+poetry add celery
+
+
+celery -A serpentarium worker -l info
+

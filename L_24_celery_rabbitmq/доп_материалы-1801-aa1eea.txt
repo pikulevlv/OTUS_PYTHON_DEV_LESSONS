@@ -1,0 +1,9 @@
+https://simpleisbetterthancomplex.com/tutorial/2017/08/20/how-to-use-celery-with-django.html - в джанго good
+https://webdevblog.ru/asinhronnye-zadachi-v-django-s-redis-i-celery/ - с редис
+https://docs.celeryproject.org/en/latest/userguide/tasks.html - официальный сайт celery
+https://docs.celeryproject.org/en/latest/django/first-steps-with-django.html - djagno + celery на официальном сайте
+https://django-celery-results.readthedocs.io/en/latest/ - сохранение результатов
+https://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-result_backend - CELERY_RESULT_BACKEND
+
+https://djbook.ru/rel1.8/topics/email.html - отправка письма
+https://djbook.ru/rel1.8/topics/logging.html - логгирование в django
