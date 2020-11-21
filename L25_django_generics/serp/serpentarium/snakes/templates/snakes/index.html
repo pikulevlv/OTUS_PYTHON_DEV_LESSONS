@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Main
+{% endblock %}
+
+{% block main %}
+    <h1> Our snakes </h1>
+    {% for snake in object_list %}
+    <ul class="list-group">
+
+        <li class="list-group-item list-group-item-action">
+                    {% if snake.specia.image %}
+                        <img width="50px" height="50px" src="{{ snake.specia.image.url }}">
+                    {% endif %}
+                    {{ snake.name }}, poison:{{ snake.specia.is_poison }} ,
+                    family:{{ snake.specia.name }}
+                    {% if snake.file %}
+                        <a href="{{ snake.file.url }}" download>download profile</a>
+                    {% endif %}
+        </li>
+    </ul>
+    {% endfor %}
+
+    <hr>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-primary">Save and send</button>
+    </form>
+    <hr>
+    {% if task_id %}
+        <a href="/status/?task_id={{ task_id }}"> {{ task_id }} </a>
+    {% endif %}
+
+{% endblock %}

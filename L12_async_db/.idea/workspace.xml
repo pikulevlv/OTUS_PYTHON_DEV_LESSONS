@@ -1,7 +1,163 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5c61b49-5858-47f6-a826-9c2efd885a3c" name="Default Changelist" comment="" />
+    <list default="true" id="d5c61b49-5858-47f6-a826-9c2efd885a3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../L11_async_web_db_sqlalchemy/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L14_bot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L25_django_generics/serp/serpentarium/snakes/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L25_django_generics/serp/serpentarium/snakes/templates/snakes/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../L25_django_generics/serp/serpentarium/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/4bis_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/keyboards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/reqs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatbot/states.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/celery_commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/README.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/templates/about/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/about/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/serpentarium/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/serpentarium/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/serpentarium/celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/serpentarium/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/serpentarium/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/serpentarium/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/management/commands/work.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0002_auto_20201107_1137.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0003_auto_20201107_1146.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0004_auto_20201107_1147.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0005_auto_20201107_1303.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0006_auto_20201107_1314.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0007_auto_20201107_1325.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0008_auto_20201107_1337.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/0009_auto_20201107_1411.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/templates/snakes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/templates/snakes/status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/snakes/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/static/snakes/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-091457-140461474200352.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-091459-140461474247104.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-091528-140461475619168.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-091534-140461471491984.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-091650-140461472477584.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-092308-139714496081632.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-092310-139714495886048.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-092428-140183112526960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-092429-140183112526768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095136-140183112527056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095240-140183112527008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095302-140183112526960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095304-140183112526768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095755-140183112527056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095855-140183112527008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095921-140183112526960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095923-140183112526768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095933-140183112527056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095934-140183112527008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095935-140183112526960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-095936-140183112526768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-100831-140183112527056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-100850-140183112527008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-100904-140183112526960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-101042-140183112526768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-101044-140183112527056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-101222-140183112527008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-101235-140183112526960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-101237-140183112526768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-101345-140183112527056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-101347-140183112527008.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-102158-140183112526960.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-102506-140183112526768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-102526-140183112527056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-103612-139678177278800.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-103844-139722636626768.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-103846-139722636631536.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-105719-140107116907536.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-105721-140107117080384.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-105958-139879212043184.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/serpentarium/tmp/app-messages/20201114-110104-140124523248560.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/tests/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/serp/tests/test_serp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/.idea/zoo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/templates/about/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/about/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/management/commands/work.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/migrations/0002_auto_20201027_2102.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/migrations/0003_auto_20201027_2122.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/templates/animals/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/templates/animals/status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/animals/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/result.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-205142-83246864.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-205535-68374880.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-205902-68374880.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-210005-68374880.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-210029-68374880.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-210345-68374832.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-211013-68374832.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-211057-68374832.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-211420-68374832.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-211509-68374856.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-211944-68435152.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/tmp/app-messages/20201030-212203-68431032.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/zoo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/zoo/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/zoo/celery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/zoo/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/zoo/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/zoo/zoo/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/доп_материалы-1801-aa1eea.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../L_24_celery_rabbitmq/презентация-1801-50e89e.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +170,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JupyterTrust" id="9606c368-f28a-4520-9ae4-c5d3682cf521" />
   <component name="ProjectId" id="1hjNyM1QkohciEuXv1dTrZJK43C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,7 +185,7 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Home_Tasks/OTUS_Python_Developer/HW_3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../L12_async_pg" />
   </component>
   <component name="RunManager" selected="Python.demo4_tortoise">
     <configuration name="demo0_from_exist" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -159,6 +319,7 @@
       <workItem from="1600523345977" duration="11629000" />
       <workItem from="1600595772653" duration="2805000" />
       <workItem from="1601115340693" duration="3000" />
+      <workItem from="1605725515072" duration="1745000" />
     </task>
     <servers />
   </component>
@@ -170,10 +331,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="292" y="44" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1600523481845" />
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1600618018692">
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1605780065261">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1600618018692" />
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1605780065261" />
     <state width="1111" height="214" key="GridCell.Tab.0.bottom" timestamp="1600537480210">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

@@ -6,3 +6,8 @@ L_24_celery_rabbitmq/serp/serpentarium/db.sqlite3
 L_24_celery_rabbitmq/serp/serpentarium/serpentarium/__pycache__/
 L_24_celery_rabbitmq/serp/serpentarium/snakes/__pycache__/
 *data/pgdata/
+L26_django_users/zoo/
+**/__pycache__
+*.sqlite3
+**/zoo
+**/.idea

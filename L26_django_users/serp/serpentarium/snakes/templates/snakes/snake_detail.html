@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{object.name}}' details
+{% endblock %}
+
+{% block main %}
+    <h1> Name: {{object.name}} </h1>
+    <h1> Specia: {{object.specia.name}} </h1>
+    <h1> Family: {{object.specia.family.name}} </h1>
+
+    <hr>
+    <a href="{% url 'snakes:update' pk=object.pk %}" class="btn btn-primary">Edit {{object.name}}</a>
+    <a href="{% url 'snakes:delete' pk=object.pk %}" class="btn btn-danger">Delete {{object.name}}</a>
+
+{% endblock %}
