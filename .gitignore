@@ -11,3 +11,4 @@ L26_django_users/zoo/
 *.sqlite3
 **/zoo
 **/.idea
+ngrok

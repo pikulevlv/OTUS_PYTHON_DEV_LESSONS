@@ -1,0 +1,13 @@
+Дать доступ до директории:
+/ngrok http file:///home/admin1/Загрузки/
+
+Инструкция:
+https://kali.tools/?p=5489
+
+
+Если нужен стабильный субдомен (платно):
+ngrok http -subdomain=inconshreveable 80
+http://inconshreveable.ngrok.io -> 127.0.0.1:80
+
+Перейти на платный план:
+https://dashboard.ngrok.com/billing/plan
