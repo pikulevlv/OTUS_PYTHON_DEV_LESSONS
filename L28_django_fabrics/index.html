@@ -1,0 +1,79 @@
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<!DOCTYPE html>
+<html platform="linux"><head>
+  <meta http-equiv="Content-Security-Policy" content="default-src chrome:; img-src data: *; media-src *; object-src 'none'">
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width; user-scalable=0">
+  <link rel="stylesheet" href="chrome://global/skin/aboutReader.css" type="text/css">
+<link rel="stylesheet" href="chrome://global/skin/narrate.css"><title></title></head>
+
+<body class="light sans-serif loaded" style="--font-size:20px; --content-width:30em;">
+  <div class="top-anchor"></div>
+
+  <div id="toolbar" class="toolbar-container">
+    <div class="toolbar reader-toolbar">
+      <div class="reader-controls" articledir="ltr">
+        <button class="close-button button " aria-label="Закрыть Вид для чтения"><span class="hover-label">Закрыть Вид для чтения</span></button>
+        <ul class="dropdown style-dropdown">
+          <li>
+            <button class="dropdown-toggle button style-button" aria-label="Настройка шрифтов"><span class="hover-label">Настройка шрифтов</span></button>
+          </li>
+          <li class="dropdown-popup">
+            <div class="dropdown-arrow"></div>
+            <div class="font-type-buttons radiorow"><input id="radio-itemsans-serif-button" type="radio" class="radio-button" name="font-type" checked="checked"><label for="radio-itemsans-serif-button" class="sans-serif-button" checked="true">Без засечек</label><input id="radio-itemserif-button" type="radio" class="radio-button" name="font-type"><label for="radio-itemserif-button" class="serif-button">С засечками</label></div>
+            <div class="font-size-buttons buttonrow">
+              <button class="minus-button" title="Уменьшить размер шрифта"></button>
+              <span class="font-size-value">5</span>
+              <button class="plus-button" title="Увеличить размер шрифта">
+            </button></div>
+            <div class="content-width-buttons buttonrow">
+               <button class="content-width-minus-button" title="Уменьшить ширину содержимого"></button>
+               <span class="content-width-value">3</span>
+               <button class="content-width-plus-button" title="Увеличить ширину содержимого">
+            </button></div>
+            <div class="line-height-buttons buttonrow">
+                <button class="line-height-minus-button" title="Уменьшить междустрочный интервал"></button>
+                <span class="line-height-value">4</span>
+                <button class="line-height-plus-button" title="Увеличить междустрочный интервал">
+            </button></div>
+            <div class="color-scheme-buttons radiorow"><input id="radio-itemlight-button" type="radio" class="radio-button" name="color-scheme" checked="checked"><label for="radio-itemlight-button" class="light-button" checked="true" title="Цветовая схема «Светлая»">Светлый</label><input id="radio-itemdark-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemdark-button" class="dark-button" title="Цветовая схема «Тёмная»">Темный</label><input id="radio-itemsepia-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemsepia-button" class="sepia-button" title="Цветовая схема «Сепия»">Сепия</label></div>
+          </li>
+        </ul>
+      <ul class="dropdown narrate-dropdown"><li><button class="dropdown-toggle button narrate-toggle" aria-label="Прослушать"><span class="hover-label">Прослушать</span></button></li><li class="dropdown-popup"><div class="narrate-row narrate-control"><button class="narrate-skip-previous" disabled="disabled" title="Назад"></button><button class="narrate-start-stop" title="Начать"></button><button class="narrate-skip-next" disabled="disabled" title="Вперёд"></button></div><div class="narrate-row narrate-rate"><input class="narrate-rate-input" value="0" step="5" max="100" min="-100" type="range" title="Скорость"></div><div class="narrate-row narrate-voices"><div class="voiceselect voice-select"><button class="select-toggle" aria-controls="voice-options">
+      <span class="label">Голос:</span> <span class="current-voice">Стандартный</span>
+    </button>
+    <div class="options" id="voice-options" role="listbox"><button data-value="automatic" class="option selected" tabindex="-1" role="option" aria-selected="true">Стандартный</button><button data-value="urn:moz-tts:speechd:Russian%20(Latvia)?ru-LV" class="option" tabindex="-1" role="option">Русский (ru-LV)</button><button data-value="urn:moz-tts:speechd:Russian?ru" class="option" tabindex="-1" role="option">Русский (ru)</button></div></div></div><div class="dropdown-arrow"></div></li></ul><button data-buttonid="pocket-button" class="button pocket-button" aria-label="Сохранить в Pocket" style="background-image: url(&quot;chrome://global/skin/reader/pocket.svg&quot;); background-size: 16px 16px;"><span class="hover-label">Сохранить в Pocket</span></button></div>
+    </div>
+  </div>
+
+  <div class="container" style="--line-height:1.6em;" dir="ltr">
+    <div class="header reader-header reader-show-element">
+      <a class="domain reader-domain" href="https://cdn.otus.ru/media/private/ee/c6/chat-1801-eec621.txt?hash=j9sJJlvRSaTcTQsCscpcRQ&amp;expires=1606674781">cdn.otus.ru</a>
+      <div class="domain-border"></div>
+      <h1 class="reader-title"></h1>
+      <div class="credits reader-credits"></div>
+      <div class="meta-data">
+        <div class="reader-estimated-time" dir="ltr">3-5 минут</div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="content">
+      <div class="moz-reader-content reader-show-element"><div id="readability-page-1" class="page"><div><p>20:09:01	 От  ���� ������-����������� : pip install faker mixer factory_boy<br>20:11:32	 От  ���� ������-����������� : -----------<br>20:11:42	 От  Anton R : +<br>20:11:43	 От  andre : +<br>20:11:45	 От  Vladlen : +<br>20:11:47	 От  Stas Klimovich : все норм)<br>20:27:50	 От  ���� ������-����������� : -------------<br>20:27:58	 От  andre : +<br>20:28:00	 От  Vladlen : +<br>20:28:00	 От  Stas Klimovich : +<br>20:29:00	 От  Stas Klimovich : а миксер генерит данные связанных моделей сразу, или  только если к ним обратиться?<br>20:29:25	 От  Vladlen : он имеющиеся данные не переиспользует?<br>20:29:47	 От  Stas Klimovich : он их даже не видит, походу<br>20:33:20	 От  Stas Klimovich : а family на 33 строке не нужно?<br>20:33:37	 От  Vladlen : было бы несложно прокешировать все id и подставлять для генерации <br>20:34:01	 От  Vladlen : было бы удобно сгенерить 10 семейств, 100 видов и 1 млн животных<br>20:38:08	 От  ���� ������-����������� : -------------<br>20:38:18	 От  Stas Klimovich : +<br>20:38:21	 От  Anton : +<br>20:38:23	 От  Vladlen : +<br>20:40:06	 От  Vladlen : если ему лист можно передавать, то это то, что нужно<br>20:45:40	 От  Stas Klimovich : не совсем)<br>20:46:08	 От  Stas Klimovich : он сейчас должен полностью поле копировать?<br>20:46:19	 От  Stas Klimovich : может он его id берет?<br>20:46:52	 От  Vladlen : проще самому поле заполнить<br>20:47:01	 От  Vladlen : только запись повторная будет в бд<br>20:47:08	 От  Stas Klimovich : а если записей 1000?<br>20:47:26	 От  Vladlen : ну будет в два раза дольше писать в бд<br>20:48:38	 От  Vladlen : так он сам ее задаст<br>20:48:42	 От  Vladlen : он же все поля заполняет<br>20:49:31
+	 От  Stas Klimovich : ну тут вопрос, где нужна эта инфа будет, и исходя
+ из этого, наверное, нужно решение принимать, вычислять месяц на месте, 
+либо делать отдельное поле и хранить в базе<br>20:51:10	 От  Vladlen : а можно получить id созданных объектов в цикле?<br>20:51:23	 От  Vladlen : понял<br>20:55:16	 От  Vladlen : а можно миксеру создать объекты бд, но не записывать их сразу?<br>20:55:30	 От  Vladlen : а я сам бы сделал коммит<br>20:55:53	 От  Vladlen : жду боя тогда<br>21:01:43	 От  ���� ������-����������� : -----------<br>21:01:47	 От  Anton : +<br>21:01:48	 От  Vladlen : +<br>21:02:02	 От  Stas Klimovich : +<br>21:05:32	 От  Stas Klimovich : а поля в фабрике можно настраивать?<br>21:08:43	 От  Vladlen : а рандом как сделать?<br>21:11:41	 От  Vladlen : а можно рандом сделать для всех полей, чтобы не описывать каждое?<br>21:13:05	 От  Vladlen : я ждал что-то вроде '__all__'<br>21:18:46	 От  ���� ������-����������� : --------------<br>21:18:52	 От  Vladlen : +<br>21:18:53	 От  Anton : +<br>21:25:36	 От  Stas Klimovich : то есть в этом случае сначала создается вид, а только после этого создается семейство? <br>21:26:48	 От  Stas Klimovich : ок, понял<br>21:29:34	 От  Vladlen : bear у кайнда<br>21:29:38	 От  Vladlen : bears<br>21:30:37	 От  Stas Klimovich : супер)<br>21:32:09	 От  Stas Klimovich : а случайный порядок можно?<br>21:32:44	 От  Vladlen : амурский<br>21:33:41	 От  Stas Klimovich : и что если создаешь меньше/больше объектов чем в списке<br>21:34:17	 От  Anton : повтор<br>21:34:17	 От  Vladlen : по кругу<br>21:34:27	 От  Stas Klimovich : либо ошибка<br>21:34:37	 От  Vladlen : будет нарушение констрента<br>21:35:51	 От  Stas Klimovich : ок<br>21:36:43	 От  Vladlen : спасибо<br>21:36:52	 От  Anton : всем спасибо! всем пока!<br>21:36:52	 От  Stas Klimovich : большое спасибо за очередное интересное занятие!<br>21:37:04	 От  Stas Klimovich : всем хороших выходных!</p></div></div></div>
+    </div>
+
+    <div>
+      <div class="reader-message"></div>
+    </div>
+    <div aria-owns="toolbar"></div>
+  </div>
+
+
+
+</body></html>

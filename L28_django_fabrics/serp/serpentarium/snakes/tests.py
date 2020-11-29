@@ -1,4 +1,5 @@
 import math
+from mixer.backend.django import mixer
 from django.test import TestCase, Client
 # from unittest import TestCase as utc
 from .models import Specia, Family, Snake
@@ -23,17 +24,25 @@ class TestSpecia(TestCase):
         Сюда помещаем все, что нужно для теста
         """
         # print('I launch myself and clean test base before every test')
-        self.snake_family_name = Family.objects.create(name='Family_For_All')
+        # self.snake_family_name = Family.objects.create(name='Family_For_All')
+        # self.snake_family_name = mixer.blend(Family, name='Family_For_All')
         self.snake_specia_name = 'Snake_For_All'
-        self.specia_1 = Specia.objects.create(
-            name=self.snake_specia_name,
-            family=self.snake_family_name,
-        )
-        self.specia_2 = Specia.objects.create(
-            name=self.snake_specia_name,
-            family=self.snake_family_name,
-        )
+
+
+        # self.specia_1 = Specia.objects.create(
+        #     name=self.snake_specia_name,
+        #     family=self.snake_family_name,
+        # )
+        self.specia_1 = mixer.blend(Specia, name=self.snake_specia_name)
+
         self.snake_name_1 = 'Varga'
+
+        # self.specia_2 = Specia.objects.create(
+        #     name=self.snake_specia_name,
+        #     family=self.snake_family_name,
+        # )
+        self.specia_2 = mixer.blend(Specia, name=self.snake_specia_name)
+
 
     def tearDown(self):
         """
@@ -52,15 +61,16 @@ class TestSpecia(TestCase):
         # print(self.specia_1.name)
         self.assertEquals(self.specia_1.name, self.specia_2.name)
 
-    def test_snake_specia(self):
+    def test_snake_specia_count(self, num=3):
         self.assertEqual(self.specia_1.snake_count(), 0)
 
-        snake_name_1 = 'Vanda'
-        snake_1 = Snake.objects.create(
-            name=snake_name_1,
-            specia=self.specia_1,
-        )
-        self.assertEqual(self.specia_1.snake_count(), 1)
+        # snake_name_1 = 'Vanda'
+        # snake_1 = Snake.objects.create(
+        #     name=snake_name_1,
+        #     specia=self.specia_1,
+        # )
+        snake_1 = mixer.cycle(num).blend(Snake, specia=self.specia_1)
+        self.assertEqual(self.specia_1.snake_count(), num)
 
     # Что желательно проверить в models
     # 1. 100% методов классов
@@ -70,17 +80,22 @@ class TestViews(TestCase):
     """Testing Views with Client without launching server"""
     def setUp(self):
         self.client = Client()
-        self.snake_family_name = Family.objects.create(name='Family_For_All')
+        # self.snake_family_name = Family.objects.create(name='Family_For_All')
+        self.snake_family_name = mixer.blend(Family, name='Family_For_All')
         self.snake_specia_name = 'Snake_For_All'
-        self.specia_1 = Specia.objects.create(
-            name=self.snake_specia_name,
-            family=self.snake_family_name,
-        )
+        # self.specia_1 = Specia.objects.create(
+        #     name=self.snake_specia_name,
+        #     family=self.snake_family_name,
+        # )
+        self.specia_1 = mixer.blend(Specia, name=self.snake_specia_name,
+                                      family=self.snake_family_name)
         self.snake_name_1 = 'Varga'
-        self.snake = Snake.objects.create(
-            name=self.snake_name_1,
-            specia=self.specia_1
-        )
+        # self.snake = Snake.objects.create(
+        #     name=self.snake_name_1,
+        #     specia=self.specia_1
+        # )
+        self.snake = mixer.blend(Snake, name=self.snake_name_1,
+                                 specia=self.specia_1)
 
     def test_index(self):
         response = self.client.get('/')

@@ -66,6 +66,7 @@ class SnakesUpdateView(StaffOnlyMixin, UpdateView):
     form_class = SnakeForm
 
 
+
 class SnakesDeleteView(AdminOnlyMixin, DeleteView):
     model = Snake
     template_name = 'snakes/delete_confirm.html'

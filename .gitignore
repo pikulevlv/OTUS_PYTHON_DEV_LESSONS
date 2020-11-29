@@ -12,3 +12,5 @@ L26_django_users/zoo/
 **/zoo
 **/.idea
 ngrok
+*__pycache__/
+
