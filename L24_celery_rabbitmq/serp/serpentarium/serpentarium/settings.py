@@ -139,6 +139,7 @@ INTERNAL_IPS = [
 CELERY_BROKER_URL = 'amqp://localhost:5672' # в рэббит работает над очередью задач
 # CELERY_BROKER_URL = 'amqp://guest@localhost'
 CELERY_RESULT_BACKEND = 'rpc://' # в селери базу сохраняет результаты
+# CELERY_RESULT_BACKEND = 'django-db' # в селери базу сохраняет результаты
 # CELERY_ACCEPT_CONTENT = ['application/json']
 # CELERY_RESULT_SERIALIZER = 'json'
 # CELERY_TASK_SERIALIZER = 'json'  ticfiles.finders.AppDirectoriesFinder',

@@ -1,0 +1,9 @@
+pip install fastapi
+pip3 install uvicorn
+pip3 install pydantic
+
+uvicorn "demo_fastapi:app"
+# если надо перезапускаться при изменениях автоматически
+uvicorn "demo_fastapi:app" --reload 
+http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/redoc

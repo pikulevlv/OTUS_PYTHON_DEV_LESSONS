@@ -4,6 +4,6 @@ https://factoryboy.readthedocs.io/en/stable/
 
 Порядок установки:
 poetry add factory_boy
-poetry add mixer 
-poetry add faker=0.9.1
+poetry add mixer # всегда записывает данные в БД, в отличие от factory_boy
+poetry add faker=0.9.1 (или последнюю версию, если не нужен миксер, они конфликтуют) он есть в factory_boy свой
 
