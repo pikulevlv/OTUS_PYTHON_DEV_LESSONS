@@ -1,0 +1,10 @@
+https://github.com/OtusTeam/BasePython/tree/PythonBasic.2020-07/lessons/lesson.30
+
+pip install beautifulsoup4
+pip install bs4
+
+scrapy runspider my_spider.py
+scrapy runspider my_spider.py -O quotes.json # записать в джсон файл
+scrapy runspider my_spider.py -O quotes.jl # записать в файл, где каждая строчка отдельный json
+scrapy runspider my_spider.py -o quotes.jl # дописать в существующий файл, где каждая строчка отдельный json
+

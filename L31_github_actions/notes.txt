@@ -1,0 +1,17 @@
+https://travis-ci.org/
+https://habr.com/ru/company/vdsina/blog/512630/
+https://github.com/OtusTeam/BasePython/tree/PythonBasic.2020-07/lessons/lesson.31
+https://github.com/marketplace?type=actions
+
+
+pip install -r requirements.txt
+
+python3 -m venv l31_env
+
+pip freeze > requirements-dev.txt
+
+# выполнить тесты
+pytest -v
+
+git remote add origin git@github.com:pikulevlv/flask-app-demo-workflow-tests.git
+git push -u origin master
